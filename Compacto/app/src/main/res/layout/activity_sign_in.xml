@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/user_logo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_face_white_48dp" />
+
+    <EditText
+        android:id="@+id/email_signIn"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="#BABABA"
+        android:ems="10"
+        android:fontFamily="@font/roboto_medium_italic"
+        android:foreground="@android:drawable/bottom_bar"
+        android:foregroundTint="#4DFFFFFF"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textColor="#BCBCBC"
+        android:textColorHint="#C5C5C5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_logo" />
+
+    <EditText
+        android:id="@+id/pass_signIn"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#BABABA"
+        android:ems="10"
+        android:fontFamily="@font/roboto_medium_italic"
+        android:foreground="@android:drawable/bottom_bar"
+        android:foregroundTint="#4DFFFFFF"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#BCBCBC"
+        android:textColorHint="#C5C5C5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_signIn" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/roboto_medium_italic"
+        android:text="SUBMIT"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#77A39F9F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass_signIn" />
+
+    <TextView
+        android:id="@+id/forgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:text="Forgot Password ?"
+        android:textColor="#BEAFAFAF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

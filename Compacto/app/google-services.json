@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "626703872521",
+    "project_id": "compacto-979",
+    "storage_bucket": "compacto-979.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626703872521:android:c38280c155eeaddcfa7ed8",
+        "android_client_info": {
+          "package_name": "com.example.compacto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLyzdyTGiGmtLvg0mFASd9SZmvM0FZ-LA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
