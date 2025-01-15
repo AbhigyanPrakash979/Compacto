@@ -12,16 +12,23 @@ Advanced Features:
 Compacto’s core functionalities are driven by Firebase ML Kit, which provides state-of-the-art machine learning models for:
 
 Text Translation: Users can translate text between multiple languages effortlessly.
+
 Text Extraction: The app can extract text from images, making it easy to digitize printed or handwritten text.
+
 Speech Recognition: Compacto can convert spoken words into text, supporting hands-free operation and enhancing accessibility.
+
 Security and Permissions:
+
 To safeguard user data and maintain privacy, Compacto integrates Firebase Authentication and Android Permissions. These features ensure that only authorized users can access sensitive functionalities, and permissions are managed dynamically to enhance security without compromising user experience.
 
 User Experience and Design:
+
 The UI design of Compacto is conceptualized and prototyped using Adobe XD, adhering to Material Design guidelines. This results in a visually appealing interface with a clean and modern aesthetic. The app’s interactive elements are brought to life with Android animations, creating a fluid and engaging user experience that enhances user interaction and satisfaction.
 
 Optimization and Performance:
+
 Compacto is optimized for performance, ensuring that language processing and voice-to-text functionalities are delivered with minimal latency. The app’s lightweight design ensures that it performs efficiently even on devices with limited resources, making it accessible to a wide audience.
 
 Conclusion:
+
 Compacto stands out as a comprehensive language tool that combines cutting-edge technology with an intuitive design. Its seamless integration of text translation, extraction, and speech recognition makes it an indispensable app for users seeking efficient and reliable language services. Whether for personal or professional use, Compacto empowers users to overcome language barriers with ease and confidence.
